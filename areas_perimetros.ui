@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Areas_Perimetros</class>
+ <widget class="QMainWindow" name="Areas_Perimetros">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>789</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="gridGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>761</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Poligonos</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="8" column="3">
+      <widget class="QLineEdit" name="line_B">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="3">
+      <widget class="QLineEdit" name="line_lado_p_h_o">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="elipse">
+       <property name="text">
+        <string>Elipse</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="3">
+      <widget class="QLineEdit" name="line_apotema">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="eje_a">
+       <property name="text">
+        <string>eje a:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="base">
+       <property name="text">
+        <string>lado A</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLabel" name="altura">
+       <property name="text">
+        <string>lado B</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="eje_b">
+       <property name="text">
+        <string>eje b:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="circulo">
+       <property name="text">
+        <string>Circulo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLabel" name="apotema">
+       <property name="text">
+        <string>apootema:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QComboBox" name="p_h_o">
+       <item>
+        <property name="text">
+         <string>Pentagono</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hexagono</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Heptagono</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Octagono</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="line_radio">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLabel" name="lado_p">
+       <property name="text">
+        <string>lado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QRadioButton" name="rad_area">
+       <property name="text">
+        <string>Area</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="0">
+      <widget class="QRadioButton" name="rad_perim">
+       <property name="text">
+        <string>Perimetro</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QLineEdit" name="line_C">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLineEdit" name="line_eje_b">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLabel" name="altura_2">
+       <property name="text">
+        <string>lado C</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLineEdit" name="line_A">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="line_eje_a">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="elipse_2">
+       <property name="text">
+        <string>Triangulo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLabel" name="res_2">
+       <property name="text">
+        <string>Resultado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="4">
+      <widget class="QLabel" name="res_5">
+       <property name="text">
+        <string>Resultado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLabel" name="res_1">
+       <property name="text">
+        <string>Resultado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QLabel" name="res_3">
+       <property name="text">
+        <string>Resultado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLineEdit" name="line_res_e">
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLineEdit" name="line_res_cir">
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QLineEdit" name="line_res_t">
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="5">
+      <widget class="QLineEdit" name="line_res_cuad">
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="3" colspan="3">
+      <widget class="QPushButton" name="btn_calcula">
+       <property name="text">
+        <string>CALCULAR</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="5">
+      <widget class="QLineEdit" name="line_res_p">
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+       <property name="placeholderText">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="lado_c">
+       <property name="text">
+        <string>lado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="4">
+      <widget class="QLabel" name="res_4">
+       <property name="text">
+        <string>Resultado:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="3">
+      <widget class="QLineEdit" name="line_lado_cuadrado">
+       <property name="maxLength">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="triangulo">
+       <property name="text">
+        <string>Cuadrado</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="radio">
+       <property name="text">
+        <string>radio:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
